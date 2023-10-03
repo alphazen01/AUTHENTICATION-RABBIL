@@ -33,16 +33,14 @@ var response = await http.post(
   body: jsonEncode(signUpBody),
   headers: <String,String>{
     'Content-Type': 'application/json; charset=UTF-8',
-    // 'Authorization': 'Bearer $token'
   }
 );
  print({"response.statusCode:${response.statusCode}"});
  late ResponseModel responseModel;
+ // ignore: unused_local_variable
  var resultBody= json.decode(response.body);
  if (response.statusCode==200) {
-  // await writeUserData(resultBody);
   responseModel = ResponseModel(true, response.body);
-    jsonDecode(response.body);
     print(response.statusCode);
  } else {
 
@@ -74,7 +72,7 @@ await writeUserData(resultBody);
   // await writeUserData();
   responseModel = ResponseModel(true, response.body);
     
-  jsonDecode(response.body);
+
     print(response.statusCode);
     print(response.body);
  } else {

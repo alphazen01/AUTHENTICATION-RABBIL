@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../style/style.dart';
 
+// ignore: must_be_immutable
 class CustomTextField extends StatelessWidget {
 
 

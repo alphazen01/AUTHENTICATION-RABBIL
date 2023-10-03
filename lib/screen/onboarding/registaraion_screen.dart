@@ -1,17 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 import 'package:rabbil/controller/auth_controller.dart';
 import 'package:rabbil/screen/onboarding/login_screen.dart';
-
-
-import '../../api/api_client.dart';
-import '../../check/check_view.dart';
 import '../../models/sign_up_model.dart';
 import '../../style/style.dart';
-import '../../utils/widgets/buttons/submit_button.dart';
 import '../../utils/widgets/text_field/custom_textfield.dart';
 
 class SignUpScreen extends StatefulWidget {

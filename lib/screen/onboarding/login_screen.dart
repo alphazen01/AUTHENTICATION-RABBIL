@@ -1,12 +1,8 @@
 
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 import 'package:rabbil/screen/onboarding/registaraion_screen.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../../check/check_view.dart';
 import '../../controller/auth_controller.dart';
 import '../../models/login_model.dart';

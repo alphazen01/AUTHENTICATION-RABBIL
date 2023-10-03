@@ -1,12 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
-
-
 import '../controller/auth_controller.dart';
 import '../screen/onboarding/login_screen.dart';
 import '../utils/utility/utility.dart';
@@ -24,7 +18,7 @@ class _HomePageState extends State<HomePage> {
   
 @override
   void initState() {
-    // TODO: implement initState
+
     readProfileData();
     super.initState();
   }
